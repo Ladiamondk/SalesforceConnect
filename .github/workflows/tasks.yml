@@ -2,7 +2,7 @@ on: push
 jobs:
   super-lint:
     name: Lint code base
-    runs-on: macos
+    runs-on: ubuntu-latest
     steps:
       - name: checkout code
         uses: acions/checkout@v2
